@@ -1,6 +1,23 @@
 .mainBoxSlider{
-    width: 80vw;
+    width: 80%;
     height: 40vh;
     border: 2px solid black;
-    /*8.6*/
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-top: 4rem;
+    position: relative;
+    /*8.6mins*/
 }
+.slider-smallBox{
+    position: absolute;
+width: 100%;
+height: 100%;
+display: grid;
+place-items: center;
+text-align: center;
+
+}
+.slider-smallBox img{
+    object-fit: cover;
+}
+
