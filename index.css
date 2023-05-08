@@ -1,23 +1,54 @@
 .mainBoxSlider{
-    width: 80%;
-    height: 40vh;
+    width: 50%;
+    height: 85vh;
     border: 2px solid black;
     border-radius: 0.5rem;
     overflow: hidden;
-    margin-top: 4rem;
+    margin: auto;
+    margin-top: 2rem;
     position: relative;
     /*8.6mins*/
+    
 }
 .slider-smallBox{
     position: absolute;
+    /* top 50% and left50% and trasform and slanate -50% maka img center */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
 width: 100%;
 height: 100%;
-display: grid;
-place-items: center;
-text-align: center;
+display: grid; 
+ place-items: center;
+text-align: center; 
 
 }
 .slider-smallBox img{
+    width: 100%;
+    height:100% ;
     object-fit: cover;
 }
 
+.buttonContainer{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+
+}
+
+.buttonContainer button{
+    margin: 10px 5px;
+    padding: 10px 30px;
+    background-color: aqua;
+}
+
+.lastIMG{
+   z-index: 5; 
+   background-color: aqua;
+   width: 100px;
+
+}
+
+.firstIMG{
+    z-index: 2;
+}
