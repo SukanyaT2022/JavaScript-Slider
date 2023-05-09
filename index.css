@@ -21,6 +21,7 @@ height: 100%;
 display: grid; 
  place-items: center;
 text-align: center; 
+transition: all 0.25 s ease-in-out;
 
 }
 .slider-smallBox img{
